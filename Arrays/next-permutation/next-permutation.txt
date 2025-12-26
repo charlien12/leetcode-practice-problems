@@ -1,0 +1,9 @@
+https://leetcode.com/problems/next-permutation/description/?envType=problem-list-v2&envId=array
+
+Solving Approach:
+
+1) We need to find the first decreasing element from the right of the list.
+2) Then, we need to find the smallest element from the right side 
+that is greater than the first decreasing element.
+3) We swap these two elements
+4) Finally we reverse the sublist from the first decreasing element to the end of the list.
